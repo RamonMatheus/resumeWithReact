@@ -1,0 +1,86 @@
+.App {
+  background: #ACE4DE;
+}
+
+Header{
+  opacity: from 0, to 1;
+  margin-top: from -500, to 0;
+}
+
+.col-header {
+  background-image: url("./components/images/photoDesktop.jpg");
+  height: 500px;
+  color: rgb(228, 228, 235);
+  text-decoration: solid;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-link{
+  color : rgb(23, 189, 175);
+  font-size: x-large;
+}
+
+.aboutMe{
+  margin-top: 30px;
+}
+
+.row-flex{
+  padding-top: 100px;
+  
+}
+
+
+.row-title{
+  margin-top: 40px;
+  margin-bottom: 60px;
+ 
+}
+
+.col-description{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col-description-title{
+  margin-top: 110px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  
+  
+}
+
+.img-icono{
+  height: 100px;
+  width: 150px;
+}
+.button-redes{
+  width: 100px;
+  height: 50px;
+
+}
+button{
+  width: 200px;
+  height: 100px;
+  margin-bottom: 100px;
+
+
+}
+.iconos{
+  font-size: 40px;
+}
+
+.form-group{
+  width: 550px;
+}
+
+.row-footer{
+  background: rgb(10, 129, 129);
+  color: black;
+}
+
+.border{
+  border-radius: 20%;
+}
