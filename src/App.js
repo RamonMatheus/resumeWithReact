@@ -37,7 +37,7 @@ function App() {
             <img src={require('../src/components/images/IFTS12.png')} className=" img-icono" />
           </div>
           <div className="col col-description">
-            <Description title="Educación 👨‍🎓" title1="Cursos" description1="HTML, CSS, JS, Bootstrap, Diseño Responsive, React Js, Java POO, JPA, Spring boot orientado a microservicios, Sql Server, MySql, MongoDB, Github y manejo básico de Git." />
+            <Description title="Educación 👨‍🎓" title1="Cursos" description1="HTML, CSS, JS, Bootstrap, Diseño Responsive, React Js, Java POO, JPA, Spring boot orientado a microservicios, Sql Server,Docker, MySql, MongoDB, Github y manejo básico de Git." />
             <img src={require('../src/components/images/photoDesktop.jpg')} className=" img-icono" />
           </div>
         </div>
