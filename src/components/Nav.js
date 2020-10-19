@@ -3,25 +3,25 @@ import React from 'react';
 export default function Nav() {
     return (
         <div>
-            <nav class="navbar navbar-expand-sm bg-dark">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#/">Menú</a>
+            <nav className="navbar navbar-expand-sm bg-dark">
+                <ul className="navbar-nav">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#/">Menú</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#AboutMe">Sobre Mí</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#AboutMe">Sobre Mí</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Education">Educación</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Education">Educación</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Work">Empleos</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Work">Empleos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#MisRedes">Mis Redes</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#MisRedes">Mis Redes</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contactame">Contáctame</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Contactame">Contáctame</a>
                     </li>
 
                 </ul>

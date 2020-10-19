@@ -15,11 +15,11 @@ export default function Footer() {
                     <div className="row justify-content-center">
                         <a target="_blank"
                             href="https://www.linkedin.com/in/ram%C3%B3n-matheus-bastidas-0b5993169?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8JeMAtJDQLG%2BPuR4B0yLVA%3D%3D">
-                            <i class="fab fa-linkedin iconos mt-5" style={{ color: "blue" }}></i>
+                            <i className="fab fa-linkedin iconos mt-5" style={{ color: "blue" }}></i>
                         </a>
                         <a target="_blank"
                             href="https://github.com/RamonMatheus?tab=repositories">
-                            <i class="fab fa-github iconos mt-5" style={{ color: "gray" }}></i>
+                            <i className="fab fa-github iconos mt-5" style={{ color: "gray" }}></i>
                         </a>
                         <p style={{ color: "black" }} >Email: ramonmatheus1988@gmail.com</p>
                     </div>

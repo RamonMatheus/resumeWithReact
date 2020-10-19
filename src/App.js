@@ -5,7 +5,6 @@ import Description from './components/Description';
 import Header from './components/Header';
 import AboutMe from './components/images/AboutMe';
 import Nav from './components/Nav';
-import Form from './components/Form';
 import Footer from './components/Footer';
 import PostForm from './components/PostForm';
 
@@ -67,7 +66,7 @@ function App() {
           <button type="onClick">
             <a target="_blank"
               href="https://github.com/RamonMatheus?tab=repositories">
-              <i class="fab fa-github iconos">GitHub</i>
+              <i className="fab fa-github iconos">GitHub</i>
             </a>
           </button>
         </div>
@@ -76,7 +75,7 @@ function App() {
           <button type="onClick">
             <a target="_blank"
               href="https://www.linkedin.com/in/ram%C3%B3n-matheus-bastidas-0b5993169?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8JeMAtJDQLG%2BPuR4B0yLVA%3D%3D">
-              <i class="fab fa-linkedin iconos" color="blue">Linkedin</i>
+              <i className="fab fa-linkedin iconos" color="blue">Linkedin</i>
             </a>
           </button>
         </div>

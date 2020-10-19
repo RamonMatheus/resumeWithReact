@@ -55,25 +55,25 @@ export default class PostForm extends React.Component {
 
                 <form onSubmit={this.onSubmitWebForm}>
                     <div className="row justify-content-center">
-                        <div class="form-group">
-                            <label for="usr">Nombre y Apellido:</label>
-                            <input type="text" name="nameForm" onChange={this.onChangenameForm} class="form-control" />
+                        <div className="form-group">
+                            <label>Nombre y Apellido:</label>
+                            <input type="text" name="nameForm" onChange={this.onChangenameForm} className="form-control" />
                         </div>
-                        <div class="form-group">
-                            <label for="pwd">Email:</label>
-                            <input type="email" name="emailForm" onChange={this.onChangeemailForm} class="form-control" />
+                        <div className="form-group">
+                            <label>Email:</label>
+                            <input type="email" name="emailForm" onChange={this.onChangeemailForm} className="form-control" />
                         </div>
-                        <div class="form-group">
-                            <label for="pwd">Teléfono:</label>
-                            <input type="phone" name="phoneForm" onChange={this.onChangephoneForm} class="form-control" />
+                        <div className="form-group">
+                            <label>Teléfono:</label>
+                            <input type="phone" name="phoneForm" onChange={this.onChangephoneForm} className="form-control" />
                         </div>
-                        <div class="form-group">
-                            <label for="comment">Comentarios:</label>
-                            <textarea class="form-control" name="messageForm" onChange={this.onChangemessageForm} rows="5" id="comment">
+                        <div className="form-group">
+                            <label>Comentarios:</label>
+                            <textarea className="form-control" name="messageForm" onChange={this.onChangemessageForm} rows="5" id="comment">
                             </textarea>
                         </div>
-                        <div class="container text-center">
-                            <button type="submit" class="btn btn-info" style={{ width: 200, height: 80 }}>Enviar</button>
+                        <div className="container text-center">
+                            <button type="submit" className="btn btn-info" style={{ width: 200, height: 80 }}>Enviar</button>
                         </div>
                     </div>
                 </form>
