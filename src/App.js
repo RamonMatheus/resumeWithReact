@@ -7,6 +7,7 @@ import AboutMe from './components/images/AboutMe';
 import Nav from './components/Nav';
 import Form from './components/Form';
 import Footer from './components/Footer';
+import PostForm from './components/PostForm';
 
 
 
@@ -86,7 +87,7 @@ function App() {
           <h1><b>Contáctame 📧</b></h1>
         </div>
       </div>
-      <Form />
+      <PostForm />
 
       <Footer />
 

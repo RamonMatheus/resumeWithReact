@@ -1,30 +1,41 @@
 import React from 'react';
+import axios from 'axios';
 
-export default function Form() {
-    return (
-        <div className="row justify-content-center">
-            <div class="form-group">
-                <label for="usr">Nombre y Apellido:</label>
-                <input type="text" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label for="pwd">Email:</label>
-                <input type="email" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label for="pwd">Teléfono:</label>
-                <input type="phone" class="form-control" />
-            </div>
-            <div class="form-group">
-                <label for="comment">Comentarios:</label>
-                <textarea class="form-control" rows="5" id="comment">
-                </textarea>
-            </div>
-            <div class="container text-center">
-                <button type="button" class="btn btn-info" style={{ width: 200, height: 80 }}>Enviar</button>
-            </div>
-        </div>
+export default class Form extends React.Component {
 
 
-    )
+    state = {
+        webForm: []
+    }
+
+    componentDidMount() {
+        axios.get('/contactForm/save')
+            .then(response => {
+                this.state({ webForm: response.data });
+            })
+    }
+
+    render() {
+        return (
+            <div>
+                {
+
+                    this.state.webForm.map(webForm =>
+                        <div>
+                            <h4>{webForm.nameForm}</h4>
+                            <h4>{webForm.emailForm}</h4>
+                            <h4>{webForm.phoneForm}</h4>
+                            <h4>{webForm.messageForm}</h4>
+                        </div>
+
+                    )
+
+                }
+
+
+            </div>
+
+
+        )
+    }
 }
